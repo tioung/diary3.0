@@ -1,0 +1,62 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Texturina', serif;
+  margin:0;
+  color:#555;
+}
+h1, h2, h3, p{
+  margin:0;
+}
+
+.container{
+  /* border:1px solid red; */
+  width:50%;
+  margin: 3em auto;
+}
+form, textarea, .btn{
+  width:100%;
+}
+form h1{
+  text-align: center;
+  background-color: #EEE;
+  padding: 0.5em;
+  color: rgba(255,255,255,0.8)
+}
+
+textarea, .btn, .diary{
+  border:unset;
+  padding:1em;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+textarea, .btn{
+  font-family: inherit;
+}
+textarea{
+  background-color: #DDD;
+}
+.btnsubmit{
+  font-size: 1.4rem;
+  background-color: #CCC;
+  cursor: pointer;
+}
+.diary{
+  background-color: #BBB;
+  margin:0.5em 0;
+  color:#111;
+  font-weight: 700;
+}
+
+.hide{
+  display: none;
+}
+.text-entry{
+  background-color: #FFF;
+  margin:2px 0;
+}
+.btn-entry{
+  text-align: left;
+  margin:2px 0;
+}
