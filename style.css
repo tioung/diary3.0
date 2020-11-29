@@ -37,6 +37,10 @@ textarea, .btn{
 textarea{
   background-color: #DDD;
 }
+textarea:invalid {
+     -moz-box-shadow: none;
+     box-shadow: none;
+}
 .btnsubmit{
   font-size: 1.4rem;
   background-color: #CCC;
